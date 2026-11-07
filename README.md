@@ -32,6 +32,10 @@ Esta versão oferece **duas formas de capturar**:
 | **Automática** | Uma página, sem interação | Um navegador controlado (Playwright) abre a página, renderiza e captura. |
 | **Interativa** | Você quer navegar e/ou salvar **várias páginas** | Abre uma janela que **você** controla: navegue até a página desejada e clique em capturar. Pode repetir para outras páginas — os **links entre as páginas capturadas ficam locais** (apontam para os arquivos do `.zip`); os demais continuam online. |
 
+<p align="center">
+  <img src="docs/webmirror-interativo.png" alt="Painel do modo interativo: botões Capturar esta página e Finalizar e baixar, com a lista de páginas já capturadas" width="640">
+</p>
+
 ### Pipeline de captura
 
 ```

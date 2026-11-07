@@ -1631,7 +1631,7 @@ function renderHomePage(nonce) {
   ul { margin:8px 0 0; padding-left:20px; } li { margin:2px 0; }
   .warnings li { color:var(--warn); }
   a.download { display:inline-block; margin-top:12px; padding:10px 18px; border-radius:8px; background:var(--ok); color:#fff; text-decoration:none; font-weight:600; }
-  .hidden { display:none; }
+  .hidden { display:none !important; }
   small { color:var(--muted); }
   @media (max-width:520px) { .row { flex-direction:column; } }
 </style>
