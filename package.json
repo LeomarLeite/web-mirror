@@ -1,0 +1,27 @@
+{
+  "name": "web-mirror",
+  "version": "0.1.0",
+  "description": "WebMirror: salva páginas web públicas (DOM renderizada + arquivos estáticos) num .zip para estudo offline de front-end.",
+  "private": true,
+  "license": "MIT",
+  "author": "Leomar de Sousa Leite",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --env-file-if-exists=.env --watch server.js",
+    "browsers": "playwright install chromium",
+    "check": "node --check server.js",
+    "docker:up": "docker compose up --build -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f webmirror"
+  },
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "express": "^5.3.0",
+    "playwright": "1.65.0"
+  }
+}

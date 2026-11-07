@@ -1,0 +1,7 @@
+node_modules/
+downloads/
+.env
+*.log
+.webmirror-profile*/
+_leomar/
+_proposta-leomar/

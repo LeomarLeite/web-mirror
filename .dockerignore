@@ -1,0 +1,11 @@
+node_modules
+downloads
+.env
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+_leomar
+_proposta-leomar
+*.log
